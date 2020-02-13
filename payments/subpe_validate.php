@@ -8,7 +8,7 @@
 
 
 	//$paramList = $_POST;
-	$bpayhash = isset($_POST["HASH"]) ? $_POST["HASH"] : ""; //Sent by \Bhartipay pg
+	$bpayhash = isset($_POST["HASH"]) ? $_POST["HASH"] : ""; //Sent by \Subpe pg
 
 	$paramList["AMOUNT"]= $_POST['AMOUNT'];
 	$paramList["CURRENCY_CODE"]= $_POST['CURRENCY_CODE'];
